@@ -1,0 +1,61 @@
+/* 设置全局字体颜色为金黄色 */
+body {
+    background-color: #212529;
+    color: #f8c102; /* 默认金黄色 */
+}
+
+/* 中央背景图片 */
+.center-image {
+    background-image: url('https://courses.ics.hawaii.edu/ics314s25/morea/ui-frameworks/wod-ko-hana-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 顶部导航栏样式 */
+.navbar-nav .nav-link {
+    color: #f8c102; /* 默认金黄色 */
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white; /* 悬停变白色 */
+}
+
+/* 购物车图标 */
+.bi-cart {
+    color: white; /* 默认白色 */
+}
+
+/* Footer 样式 */
+footer .nav-link,
+.contact-info a,
+.footer-link { /* 让邮箱、电话、地址、Terms & Conditions 都可点击 */
+    color: #f8c102; /* 默认金黄色 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .nav-link:hover,
+.contact-info a:hover,
+.footer-link:hover {
+    color: blue; /* 悬停变蓝色 */
+}
+
+/* 社交媒体图标样式（始终保持白色） */
+.social-icons {
+    font-size: 1.5rem; /* 调整图标大小 */
+}
+
+.social-icons .nav-link {
+    color: white; /* 图标始终保持白色 */
+    transition: color 0.3s ease;
+}
+
+.social-icons .nav-link:hover {
+    color: white; /* 悬停时仍保持白色 */
+}
